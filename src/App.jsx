@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './APP.css'
+import './App.css'
 
 function App() {
   const [posts, setPosts] = useState(null);
