@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState(null);
   const [loading, setloading] = useState(true);
 
-  useEffect(() => {
+  useEffect(() => { 
     async function HandleAdvice() {
       setloading(true);
       try {
