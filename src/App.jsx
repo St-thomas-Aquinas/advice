@@ -43,7 +43,7 @@ HandleAdvice();
               return;
             }
             const data = await response.json();
-            const data2 = JSON.stringify(data);
+            const data2 = JSON.stringify(data.slip.advice);
             setPosts(data2);
           } catch (e) {
             setError("Something Went Wrong");
